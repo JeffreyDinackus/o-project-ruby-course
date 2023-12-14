@@ -1,14 +1,16 @@
 def add(a, b)
   # return the result of adding a and b
-  a + b
+  return a + b
+
 end
 
 def subtract(a, b)
   # return the result of subtracting b from a
+  return a - b
 end
 
 def multiply(a, b)
-  # return the result of multiplying a times b
+  return a * b
 end
 
 def divide(a, b)
@@ -29,8 +31,13 @@ end
 
 def even?(number)
   # return true if the number is even (hint: use integer's even? method)
+  return number.even?
 end
 
 def odd?(number)
   # return true if the number is odd (hint: use integer's odd? method)
 end
+
+puts add(1,2)
+
+puts even?(15)
